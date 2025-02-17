@@ -38,8 +38,6 @@ UPDATE Reminder
 SET Reminder_date = '2025-02-23'
 WHERE Title = 'Homepage Design Finalization';
 
-COMMIT TRANSACTION;
-PRAGMA foreign_keys = on;
 
 COMMIT TRANSACTION;
 PRAGMA foreign_keys = on;
